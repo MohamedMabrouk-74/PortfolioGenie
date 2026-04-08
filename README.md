@@ -122,7 +122,7 @@ src/
 
 ## 🗺️ Roadmap
 
-* [x] GitHub API Integration
+* [ ] GitHub API Integration
 * [ ] Authentication
 * [ ] Export Portfolio
 * [ ] Drag & Drop Builder
