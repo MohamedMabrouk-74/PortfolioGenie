@@ -134,9 +134,12 @@ src/
 
 | Name            | Role               |
 | --------------- | ------------------ |
-|    |            |
-|    |            |
-|    |            |
+|Mohamed Mabrouk Heshmat |            |
+|Ibrahim Mohamed Rady |            |
+|Mohamed  Samy Ahmed |            |
+|Shimaa Bakri Ahmed |            |
+|Shaimaa Ahmed Mohamed |            |
+|Shahd Ebrahem Desouqy |            |
 
 ---
 
