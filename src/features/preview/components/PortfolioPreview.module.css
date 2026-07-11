@@ -1,0 +1,58 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  gap: 4.4rem;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 3px solid var(--color-brand-100);
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+}
+
+.role {
+  font-size: 1.7rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.email {
+  font-size: 1.4rem;
+  color: var(--color-brand-600);
+}
+
+.about h2,
+.projects h2 {
+  font-size: 2.1rem;
+  margin-bottom: 1.4rem;
+}
+
+.about p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  gap: 2rem;
+}
+
+.empty {
+  color: var(--color-text-muted);
+  font-size: 1.4rem;
+}

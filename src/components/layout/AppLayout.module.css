@@ -1,0 +1,18 @@
+.layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.main {
+  padding: 4.8rem;
+  max-width: 128rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .main {
+    padding: 3rem 2rem;
+  }
+}

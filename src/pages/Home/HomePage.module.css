@@ -1,0 +1,90 @@
+.hero {
+  max-width: 78rem;
+  margin: 4rem auto 8rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.badge {
+  display: inline-flex;
+  padding: 0.7rem 1.6rem;
+  border-radius: 100px;
+  background-color: var(--color-brand-50);
+  color: var(--color-brand-600);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.hero h1 {
+  font-size: 4.6rem;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.gradientText {
+  background-image: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  color: var(--color-text-muted);
+  max-width: 58rem;
+}
+
+.heroActions {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 0.8rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  gap: 2.4rem;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.featureCard {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2.8rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.featureIcon {
+  font-size: 2.8rem;
+  display: inline-block;
+  margin-bottom: 1.2rem;
+}
+
+.featureCard h3 {
+  font-size: 1.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.featureCard p {
+  font-size: 1.4rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: 3.2rem;
+  }
+}

@@ -1,0 +1,42 @@
+.list {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 3.6rem;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  color: var(--color-text-muted);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.badge {
+  width: 2.9rem;
+  height: 2.9rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-surface-alt);
+  color: var(--color-text-muted);
+  font-weight: 700;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.active {
+  color: var(--color-text);
+}
+
+.active .badge {
+  background-image: var(--gradient-brand);
+  color: #fff;
+}
+
+.completed .badge {
+  background-color: var(--color-success-bg);
+  color: var(--color-success-text);
+}
