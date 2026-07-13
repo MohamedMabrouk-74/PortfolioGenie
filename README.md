@@ -201,14 +201,14 @@ npm run lint       # run oxlint
 
 ## 👥 Team
 
-| Name | Role |
-|---|---|
-| Mohamed Mabrouk Heshmat | |
-| Ibrahim Mohamed Rady | |
-| Mohamed Samy Ahmed | |
-| Shimaa Bakri Ahmed | |
-| Shaimaa Ahmed Mohamed | |
-| Shahd Ebrahem Desouqy | |
+| Name | 
+|---|
+| Mohamed Mabrouk Heshmat | 
+| Ibrahim Mohamed Rady | 
+| Mohamed Samy Ahmed | 
+| Shimaa Bakri Ahmed | 
+| Shaimaa Ahmed Mohamed | 
+| Shahd Ebrahem Desouqy | 
 
 *Graduation Project — Digital Egypt Pioneers Initiative (DEPI) 🇪🇬*
 
